@@ -20,7 +20,7 @@ gc.enable()
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 #Set App title
-st.title('Atlas disease prediction Web App')
+st.title('Prediksi Penyakit Tanaman Singkong Web App')
 
 
 #Set the directory path
@@ -38,7 +38,7 @@ output_image= my_path + '/images/gradcam2.png'
 st.sidebar.image(banner_path,use_column_width=True)
 
 #App description
-st.write("The app predicts diseases in Atlas plants. The model was trained with the [cassava leaf disease dataset on Kaggle](https://www.kaggle.com/c/cassava-leaf-disease-classification/data). ")
+st.write("Aplikasi ini memprediksi penyakit pada tanaman Singkong. Model dilatih dengan [dataset penyakit daun singkong di Kaggle] (https://www.kaggle.com/c/cassava-leaf-disease-classification/data). ")
 st.write('**For more info:** [Blog Post](https://aminey.medium.com/how-to-train-ml-models-with-mislabeled-data-cf4bb353b3d9?sk=9f4ce905cd5c4f2d86ec3bf7b93d024c) **|** **Code:** [Github repository](https://github.com/AdiSyahadi/Plant-Diseases) **|**')
 st.markdown('***')
 
