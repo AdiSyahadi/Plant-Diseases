@@ -46,14 +46,14 @@ st.markdown('***')
 
 
 #Set the selectbox for demo images
-st.write('**Select an image for a DEMO**')
+st.write('**Pilih gambar untuk DEMO**')
 menu = ['Select an Image','Image 1', 'Image 2', 'Image 3']
 choice = st.selectbox('Select an image', menu)
 
 
 #Set the box for the user to upload an image
-st.write("**Upload your Image**")
-uploaded_image = st.file_uploader("Upload your image in JPG or PNG format", type=["jpg", "png"])
+st.write("**Unggah Gambar Anda**")
+uploaded_image = st.file_uploader("Unggah gambar Anda dalam format JPG atau PNG", type=["jpg", "png"])
 
 
 #DataLoader for pytorch dataset
