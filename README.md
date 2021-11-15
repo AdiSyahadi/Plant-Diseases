@@ -5,8 +5,6 @@
  Link to the Web App: https://share.streamlit.io/adisyahadi/plant-diseases/main/app.py
  
  
- ![alt text](https://github.com/Amiiney/cld-app-streamlit/blob/main/images/cld-app.gif)
- 
  The model was trained with the [Cassava leaf disease prediction dataset](https://www.kaggle.com/c/cassava-leaf-disease-classification).
  
  ## How to run the app?
